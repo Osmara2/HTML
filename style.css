@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap')
 header{
     display: flex;
     flex-direction: row;
@@ -34,7 +34,18 @@ p{
 width: 70%;
 font-size: 30px;
 padding: 10px;
-font-family: "EB Garamond", serif;
+font-family: font-family: "EB Garamond", serif;
+}
+
+#ubicanos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#ubicanos iframe{
+    padding: 10px;
+    margin: 15px;
 }
 .contenedor{
     display: flex;
