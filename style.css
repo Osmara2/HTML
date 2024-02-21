@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap')
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(34, 167, 167);
-    width: 90%;
+    width: 1000%;
 }
 
 heder ul{
@@ -13,9 +14,9 @@ flex-direction: row;
 }
 
 header ul li{
-    margin: 10px;
+    margin: 15px;
 }
-}
+
 img{
     width: 150%;
 }
@@ -27,7 +28,13 @@ h1{
 p{
     font-size: 20px;
     color: aliceblue;
+}
 
+.precentacion p{
+width: 70%;
+font-size: 30px;
+padding: 10px;
+font-family: "EB Garamond", serif;
 }
 .contenedor{
     display: flex;
