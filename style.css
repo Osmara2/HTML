@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap')
+
 header{
     display: flex;
     flex-direction: row;
@@ -6,8 +7,7 @@ header{
     background-color: rgb(34, 167, 167);
     width: 1000%;
 }
-
-heder ul{
+header ul{
 list-style: none;
 display: flex;
 flex-direction: row;
