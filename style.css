@@ -1,61 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap')
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(34, 167, 167);
     width: 1000%;
-}
-header ul{
-list-style: none;
-display: flex;
-flex-direction: row;
-}
+ }
+ 
+ header ul{
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ }
 
 header ul li{
     margin: 15px;
-}
+ }
 
-img{
+ img{
     width: 150%;
-}
+ }
 h1{
     font-size: 36px;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-p{
+ }
+
+p{ 
     font-size: 20px;
-    color: aliceblue;
-}
+    color: aliceblue
+    }
+ .presentacion p{
+ width: 70%;
+ font-size: 30px;
+ padding: 10px;
+ font-family: font-family: "EB Garamond", serif;
+ }
 
-.presentacion p{
-width: 70%;
-font-size: 30px;
-padding: 10px;
-font-family: font-family: "EB Garamond", serif;
-}
-
-#ubicanos{
+ #ubicanos{
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-#ubicanos iframe{
+ }
+ ubicanos iframe{
     padding: 10px;
     margin: 15px;
-}
-.contenedor{
+ }
+ .contenedor{
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 10px 0 10px 0 ;
-    
-}
+    margin: 10px 0 10px 0 ;  
+ }
 
-.caja{
+ .caja{
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -63,11 +63,11 @@ font-family: font-family: "EB Garamond", serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+ }
 
-.caja img{
+ .caja img{
     border-radius: 50%;
-}
-.caja p{
+ }
+ .caja p{
     font-size: 12px;
-}
+ }
