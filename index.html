@@ -2,54 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  
-    <title>MI PRIMERA PAGINA</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>mi primera pagina</title>
 </head>
 <body>
+
     <header>
         <div>
-          <img src="./IMG_0008.png" alt="logo empresa">
+            <img src="./Imagenes/Untitled_logo_1_free-file.jpg" alt="logo">
+
         </div>
         <nav>
-            <ul>
-
-             <a href="https://junior.org.ar/"><li>HOME</li></a>
-             <a href="#ubicanos">uBICANOS<li></a>
-             <a href="https://junior.org.ar/iscripciones/"><li>PANTALONES</li></a>
-             <a href="https://junior.org.ar/novedades/"><li>CAMISAS</li></a>
-             <a href="https://junior.org.ar/sumate/"><li>BERMUDAS</li></a>
-             <a href="https://junior.org.ar/dona/"><li>SUDADERAS</li></a>
-             <a href="https://junior.org.ar/Contacto/"><li>ENVIO</li></a>
-            </ul>
         </nav>
-    </header>
-<div class="presentacion">
+
+        </header>     
+
+<div class="contenedor-fluido">
+    <nav class="navbar navbar-expand-md navbar-light border-3 border-bottom border-primary">
+        <div class="container-fluid
+        <a href="#" class="navbar-brand" alberto tovar</a>
+            <button type="button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#menunavegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menunavegacion" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-3">
+                <li class="nav-item"><a class="nav-link" href="#">Pantalones</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">bermudas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Playera</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">sudaderas y Chamarras </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Envios</a></li>
+                </ul>
+            </div>
+            
+
+        </div>
+
+    </nav> 
+
+</div>
+
+
+        <div class="presentacion">
          <h1>CONOCENOS</h1>
          <P>Somos una tienda de ropa especializada en ofrecer la mejor calidad, al mejor precio en nuestra tienda encontraras un amplio surtido
          de ropa casual y de vestir tambien manejamos tallas xxl y xxxl</P>
 </div>
 
-<div class="contenedor">
+<div class="carrucel">
      <div class="caja">
-        <img src="./pantalon.jpg" alt="pantalon">
+        <img src="./Imagenes/pantalon.jpg" alt="pantalon">
              
              <h1>Pantalones</h1>
              <P>Amplia variedad de estilos, colores y tallas desde $200</P>
     </div>
      <div class="caja">
-         <img src="./playeras2.jpg" alt="playera"> 
+         <img src="./Imagenes/camisas3.jpg" alt="playera"> 
              <h2>Playeras</h2>
              <p>Descubre nuestra coleccion de playeras casuales y de vestir.</p>
     </div>
      <div class="caja">
-         <img src="./chamarra.jpg" alt="sudadera">
+         <img src="./Imagenes/chamarra.jpg" alt="sudadera">
              <h3>Sudaderas</h3>
              <P>Trabajamos una amplia variedad de sudaderas y chamarras desde la talla chica asta la talla 3xl.</P>
      </div>
+
+     <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./Imagenes/carrucel1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./Imagenes/carrucel2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes/carrucel3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Imagenes/duo.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>ENCUENTRA TU ESTILO</p>
+        </div>
+      </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
 </div>
 
@@ -63,7 +129,9 @@
          </footer>
      </div>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
